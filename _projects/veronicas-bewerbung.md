@@ -9,8 +9,8 @@ categories:
 
 My girlfriend's application video.
 
-**DoP**: Leon Weber\
-**Script**: Verónica Vicente\
+**DoP**: Leon Weber<br/>
+**Script**: Verónica Vicente<br/>
 **Starring**: Verónica Vicente
 
 Shot on Lumix GX85.

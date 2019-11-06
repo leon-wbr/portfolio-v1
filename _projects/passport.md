@@ -9,7 +9,7 @@ categories:
 
 A school project.
 
-**Camera**: Leon Weber\
+**Camera**: Leon Weber<br/>
 **Sound**: Luis Aguero Fischer
 
 Shot on Canon C300.

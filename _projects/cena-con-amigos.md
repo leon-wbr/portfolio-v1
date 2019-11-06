@@ -9,7 +9,7 @@ categories:
 
 Produced for Notodofilmfest.
 
-**Script, DoP and Edit**: Leon Weber\
+  **Script, DoP and Edit**: Leon Weber<br/>
 **Starring**: Angie Figueredo, Laura Barragán, Verónica Vicente
 
 Shot with Lumix GX85.

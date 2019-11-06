@@ -9,9 +9,9 @@ categories:
 
 Produced for a 45-sec short film contest.
 
-**DoP**: Leon Weber\
-**Edit**: Leon Weber & Luis Aguero Fischer\
-**Audio**: Luis Aguero Fischer\
+**DoP**: Leon Weber<br/>
+**Edit**: Leon Weber & Luis Aguero Fischer<br/>
+**Audio**: Luis Aguero Fischer<br/>
 **Starring**: Carla Wieczorek
 
 Shot with Lumix GX85.
