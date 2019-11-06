@@ -1,0 +1,6 @@
+---
+layout: default
+---
+
+{% assign webProjects = site.projects | where_exp: "item", "item.categories contains 'websites'"  %}
+{% include projects.html projects=webProjects %}

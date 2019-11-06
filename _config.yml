@@ -1,0 +1,26 @@
+title: Leon Weber
+email: lw.leonweber@gmail.com
+description: Web developer, cinematographer, etc.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: jekyllrb
+github_username:  jekyll
+
+
+collections:
+  projects:
+    output: true
+    permalink: /:title
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "projects" # a collection in your site, in plural form
+    values:
+      layout: "project"
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed

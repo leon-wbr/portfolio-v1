@@ -1,0 +1,13 @@
+<section class="Projects">
+  {% assign sortedProjects = (include.projects | sort: 'date') | reverse %}
+  {% for project in sortedProjects %}
+    <a class="ProjectItem" href="{{ project.url }}">
+      {% if project.videoId %}
+        <img class="ProjectItem__Image" src="http://i.ytimg.com/vi/{{ project.videoId }}/maxresdefault.jpg" />
+      {% else %}
+        <img class="ProjectItem__Image" src="https://source.unsplash.com/random/1280x720?{{ forloop.index }}" />
+      {% endif %}
+      <h3 class="ProjectItem__Title">{{ project.title }}</h3>
+    </a>
+  {% endfor %}
+</section>

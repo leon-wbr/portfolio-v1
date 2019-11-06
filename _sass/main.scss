@@ -1,0 +1,110 @@
+@charset "utf-8";
+
+html, body {
+  min-height: 100%;
+  margin: 0 auto;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  position: relative;
+  font-family: poppins, sans-serif;
+  font-weight: 200;
+  font-size: 1.15em;
+  max-width: 1400px;
+  padding: 0px 50px;
+}
+
+a {
+  color: inherit;
+}
+
+p {
+  max-width: 40em;
+  line-height: 1.5;
+}
+
+h1, h2, h3 {
+  line-height: 1;
+  margin: 0;
+}
+
+h2 {
+  font-weight: normal;
+  opacity: .7;
+  font-size: .9em;
+  text-transform: uppercase;
+}
+
+h3, h4 {
+  opacity: .7em;
+  text-transform: uppercase;
+  opacity: .8;
+}
+
+header, footer {
+  position: relative;
+  margin: 50px 0;
+
+  a {
+    font: inherit;
+    color: inherit;
+    text-decoration: inherit;
+  }
+
+  ul,
+  nav {
+    display: inline-block;
+    vertical-align: middle;
+
+    a {
+      margin-right: 10px;
+      opacity: .7;
+      text-transform: lowercase;
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+}
+
+main {
+  position: relative;
+  margin-bottom: 80px;
+
+  &::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+}
+
+footer {
+  padding: 50px 0;
+  opacity: .7;
+  text-align: center;
+}
+
+.svg-icon {
+  width: 1.5em;
+  height: 1.5em;
+}
+
+.svg-icon path,
+.svg-icon polygon,
+.svg-icon rect {
+  fill: #000;
+}
+
+.svg-icon circle {
+  stroke: #000;
+  stroke-width: 1;
+}
+
+@import 'navigation';
+@import 'projects';
+@import 'cv';
