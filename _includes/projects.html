@@ -1,7 +1,7 @@
 <section class="Projects">
   {% assign sortedProjects = (include.projects | sort: 'date') | reverse %}
   {% for project in sortedProjects %}
-    <a class="ProjectItem" href="{{ project.url }}">
+    <a class="ProjectItem" href="{{ project.url | relative_url }}">
       {% if project.videoId %}
         <img class="ProjectItem__Image" src="http://i.ytimg.com/vi/{{ project.videoId }}/maxresdefault.jpg" />
       {% else %}
